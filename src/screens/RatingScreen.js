@@ -88,7 +88,7 @@ export const RatingScreen = (props) => {
               <div>{allRatings[4]}</div>
             </div>
             <div className="btn-row">
-              <Link to="/"><button className="btn" onClick={() => {
+              <Link to="/rating-system/"><button className="btn" onClick={() => {
                 prevRatings.push(avg)
                 dispatch({ratings: prevRatings})
                 }}>SUBMIT</button></Link>

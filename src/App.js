@@ -18,10 +18,10 @@ const App = () => {
       <GlobalStoreProvider>
         <Router>
           <Switch>
-            <Route path="/rating">
+            <Route path="/rating-system/rating">
               <RatingScreen/>
             </Route>
-            <Route path="/">
+            <Route path="/rating-system/">
               <HomeScreen/>
             </Route>
           </Switch>

@@ -22,7 +22,7 @@ export const HomeScreen = () => {
       <h1>Booking</h1>
       <p>{avgRating ? avgRating.toFixed(1) : 0}/5 stars ({ratings.length} ratings)</p>
       <div className="btn-row">
-        <Link to="/rating"><button className="btn">RATE</button></Link>
+        <Link to="/rating-system/rating"><button className="btn">RATE</button></Link>
       </div>
     </div>
   )
