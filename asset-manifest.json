@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/rating-system/static/css/main.46e36954.chunk.css",
+    "main.js": "/rating-system/static/js/main.dc6e3329.chunk.js",
+    "main.js.map": "/rating-system/static/js/main.dc6e3329.chunk.js.map",
+    "runtime-main.js": "/rating-system/static/js/runtime-main.eacf7bb1.js",
+    "runtime-main.js.map": "/rating-system/static/js/runtime-main.eacf7bb1.js.map",
+    "static/js/2.bcdef721.chunk.js": "/rating-system/static/js/2.bcdef721.chunk.js",
+    "static/js/2.bcdef721.chunk.js.map": "/rating-system/static/js/2.bcdef721.chunk.js.map",
+    "static/js/3.0575dd1e.chunk.js": "/rating-system/static/js/3.0575dd1e.chunk.js",
+    "static/js/3.0575dd1e.chunk.js.map": "/rating-system/static/js/3.0575dd1e.chunk.js.map",
+    "index.html": "/rating-system/index.html",
+    "static/css/main.46e36954.chunk.css.map": "/rating-system/static/css/main.46e36954.chunk.css.map",
+    "static/js/2.bcdef721.chunk.js.LICENSE.txt": "/rating-system/static/js/2.bcdef721.chunk.js.LICENSE.txt",
+    "static/media/star_black_24dp.ecf2636e.svg": "/rating-system/static/media/star_black_24dp.ecf2636e.svg",
+    "static/media/star_outline_black_24dp.6bc663d6.svg": "/rating-system/static/media/star_outline_black_24dp.6bc663d6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eacf7bb1.js",
+    "static/js/2.bcdef721.chunk.js",
+    "static/css/main.46e36954.chunk.css",
+    "static/js/main.dc6e3329.chunk.js"
+  ]
+}
