@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { RatingScreen } from './screens/RatingScreen';
+import { HomeScreen } from './screens/HomeScreen';
+import { GlobalStoreProvider } from './GlobalStore';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-function App() {
+// main app
+// added a global store to store some ratings
+// added a router to switch between booking/home component and the rating component
+const App = () => {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStoreProvider>
+        <Router>
+          <Switch>
+            <Route path="/rating">
+              <RatingScreen/>
+            </Route>
+            <Route path="/">
+              <HomeScreen/>
+            </Route>
+          </Switch>
+        </Router>
+      </GlobalStoreProvider>
     </div>
   );
 }
